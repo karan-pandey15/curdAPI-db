@@ -68,6 +68,7 @@ router.get("/getone/:id", async (req,res)=>{
     }
 })
 
+// Update the userData 
 router.put("/updatedata/:id",async (req,res)=>{
     try{
         const {id} = req.params;
